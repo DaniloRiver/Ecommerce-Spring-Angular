@@ -1,59 +1,44 @@
-# Frontend
+# Backend - Ecommerce Spring + Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.3.
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)](https://spring.io/projects/spring-boot)
+[![Java](https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](../LICENSE)
 
-## Development server
+---
 
-To start a local development server, run:
+##  Descripción del Backend
 
-```bash
-ng serve
-```
+Este módulo proporciona la API RESTful para el proyecto **Ecommerce Spring + Angular**, construida con **Spring Boot** y destinada a gestionar toda la lógica del lado del servidor. Aquí se manejan rutas como productos, pedidos, usuarios, autenticación y validación de datos, con almacenamiento en **PostgreSQL**.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+---
 
-## Code scaffolding
+##  Tecnologías Utilizadas
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+| Categoría         | Tecnologías                                              |
+|------------------|-----------------------------------------------------------|
+| Framework        | Spring Boot (versión 3.x o superior)                      |
+| Lenguaje         | Java 17                                                   |
+| Base de datos    | PostgreSQL                                                |
+| Persistencia     | Spring Data JPA / Hibernate                               |
+| Seguridad        | Spring Security (opcional, si lo has integrado)           |
+| Construcción     | Maven o Gradle                                            |
+| Contenedores     | Docker (opcional, si lo has configurado)                 |
 
-```bash
-ng generate component component-name
-```
+---
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+##  Funcionalidades Principales
 
-```bash
-ng generate --help
-```
+- Exposición de API REST para operaciones CRUD sobre recursos como productos, órdenes y usuarios.
+- Validación de datos entrantes y manejo centralizado de errores.
+- Conexión a base de datos PostgreSQL con entidades JPA.
+- Posible soporte para autenticación/roles si usas Spring Security.
 
-## Building
+---
 
-To build the project run:
+##  Instalación y Ejecución
 
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+1. Clona el repositorio principal (si aún no lo tienes):
+   ```bash
+   git clone https://github.com/DaniloRiver/Ecommerce-Spring-Angular.git
+   cd Ecommerce-Spring-Angular/backend
